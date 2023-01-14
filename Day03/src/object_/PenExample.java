@@ -8,6 +8,7 @@ public class PenExample {
 		// 객체생성코드 - 타입(클래스명) 이름 = new 생성자; 
 //		Scanner scan = new Scanner(); 이미 만들어져있는것을 내가 만들수는 없다. 이건 java에서 공급하는 메서드임
 		Pen redPen = new Pen();  // 클래스를 만들면 그것이 데이타 타입이된다. 이미 만들어진 Pen이라는 class가 있으며 그게 객체이다.
+		// 에러가 뜨는 이유는 Pen()이 구현되었기 때문에 여기서 기본생성자를 만들수 없다.
 		redPen.color = "빨강"; // 속성을 넣는다.
 		redPen.price = 1000;
 		redPen.write("안녕하세요"); //Pen의 클래스가 가진 메소드 사용
