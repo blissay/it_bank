@@ -5,7 +5,7 @@ public class DiamondExample2 {
 	// 다이아몬드에서 중간에 *을 빼고 $모양을 넣는다. $모양은 j 값이 짝수일때 들어간다.
 	
 	public static void main(String[] args) {
-		// 역 피라미드 만들기
+		//피라미드만들기
 		for(int i=0; i<5; i++) { //0부터4까지 다섯번을 실행한다
 			for(int j=0; j<4-i; j++) { // 역으로 내려갈려면
 				System.out.print(" "); //i가0이면 4번실행, i가1이면 3번실행, i가 2이면 2번실행 공백을
@@ -42,10 +42,10 @@ public class DiamondExample2 {
 		
 		
 		System.out.println();
-	}
 	
 	
-}
+	
+
 	
 
 
