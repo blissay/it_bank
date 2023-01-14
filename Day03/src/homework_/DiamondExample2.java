@@ -2,7 +2,7 @@ package homework_;
 
 public class DiamondExample2 {
 
-	
+	// 다이아몬드에서 중간에 *을 빼고 $모양을 넣는다. $모양은 j 값이 짝수일때 들어간다.
 	
 	public static void main(String[] args) {
 		// 역 피라미드 만들기
