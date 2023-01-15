@@ -25,5 +25,7 @@ public class Person {
 		Orange orange = new Orange();
 		p.eat(apple); //사과를 먹습니다.
 		p.eat(orange); //오랜지를 먹습니다.
+		
+		p.eat(new fruit());
 	}
 }
