@@ -6,7 +6,7 @@ public class Fruit {
 	//새로운 
 	
 	public String getName() {
-		return null;
-	}
+		return null; // 로직에 강제로 쑤서넣음
+	} // 동작이 이루어지는건 상속 뙬대 결정된다.
 	
 }
