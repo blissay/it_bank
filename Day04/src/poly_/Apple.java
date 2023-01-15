@@ -1,6 +1,6 @@
 package poly_;
 
-public class Apple {
+public class Apple extends Fruit{
 
 	private String name = "사과";
 	
