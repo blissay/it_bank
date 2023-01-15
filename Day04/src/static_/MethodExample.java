@@ -27,7 +27,17 @@ public class MethodExample {
 		System.out.println(Arrays.toString(array)); // 매개 변수로 이용되기에 객체 안만들어도됨
 		
 		
-		
+		public static String toString(int[] array) {
+			String result = "[";
+			for (int i=0; i< array.length; i++) {
+				if ( i < array.length-1) {
+					result += array[i]+",";
+					
+				}else {
+					result += array[i]
+				}
+			}
+		}
 		
 	}
 
