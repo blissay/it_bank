@@ -8,4 +8,8 @@ public class Apple extends Fruit{
 		return this.name;
 	}
 	
+	public String toString() {
+		return "사과";
+	}
+	
 }
