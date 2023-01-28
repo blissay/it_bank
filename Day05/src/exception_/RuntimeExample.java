@@ -14,6 +14,7 @@ public class RuntimeExample {
 	public static void indexExceptionExample() {
 		
 		int[] array = new int[3];
+		
 		System.out.println(array[4]);
 		
 		String a = "abc";
