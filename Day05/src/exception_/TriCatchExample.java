@@ -21,7 +21,7 @@ public class TriCatchExample {
 			System.out.println("기본값 0 할당.");
 			
 		}catch(ArithmeticException e){
-			System.out.println("ran이 0입니다.");
+			throw new DuplicateException("아이디가 중복됩니다.");
 			
 		}finally {
 			scan.close(); //길었을대 문제가 생길수 잇으므로 여기에 넣는다.
