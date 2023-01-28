@@ -17,11 +17,13 @@ public class TriCatchExample {
 			System.out.println("숫자만 입력하셔야 합니다.");
 			System.out.println("기본값 0 할당.");
 			
+		}finally {
+			scan.close(); //길었을대 문제가 생길수 잇으므로 여기에 넣는다.
+
 		}
 		
 		System.out.println("입력하신 숫자 : "+num); //지역변수로 num을 사용할려면 앞에서 선언해 줘야한다.
-		scan.close();
-
+		
 	}
 
 }
