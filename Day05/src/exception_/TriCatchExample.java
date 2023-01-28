@@ -8,6 +8,7 @@ public class TriCatchExample {
 	public static void main(String[] args) {
 		// try에서 다양한 에외가 생길수 있다. 
 		// catch를 하나 더 박는다. 멀치 캐치
+		// throw를 통해서 사용자 정의 에러 문구를 보여줄수있다. 버그 잡는데 유용하다.
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("숫자 입력 : ");
