@@ -26,13 +26,14 @@ public class TreeSetExample {
 		
 		System.out.println(pset); // classcastexception. 자료형이 못바꾸서 그렇다. person이 comparable로 못바꾼다. 연결이 안되어 있다.
 		// person클래스로 가서 인터페이스를 만들고 구현을 해서 크기 비교를 하자 implements Comparable<Person> 이렇게 comparable롤 implements 하면된다
+		//[Person [name=박영준. age=20], Person [name=임영범. age=20]]
 		
-//		public static Set<Integer> createLotto(){
-//			Set<Integer> lotto = new TreeSet<>();
-//			while(lotto.size() < 6) {  //6번까지만 한다
-//				lotto.add((int)(Math.random()*45+1)); //중복숫자는 안받으니까 중복없이 6개를 채운다.
+//		public static Set<Integer> createLotto2(){
+//			Set<Integer> lotto2 = new TreeSet<>();
+//			while(lotto2.size() < 6) {  //6번까지만 한다
+//				lotto2.add((int)(Math.random()*45+1)); //중복숫자는 안받으니까 중복없이 6개를 채운다.
 //			}
-//			return lotto;
+//			return lotto2;
 //		}
 	}
 
