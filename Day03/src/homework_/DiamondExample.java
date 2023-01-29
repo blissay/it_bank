@@ -9,7 +9,10 @@ public class DiamondExample {
 				System.out.print(" ");
 			}
 			//다음에 나오는 별모양 갯수. 1,3,5,7,9로 늘어남으로 2의 배수 첫번재가 1개는 있어야 하니까 +1, 
-			for(int j=0; j<i*2+1 ; j++) { // 1 3 5 7 9로 갈려면
+			// 아래 코드는 살짝 개선랄 필요가 있음... 매번 연산하는 것을 방지. 
+			//for(int j=0; j<i*2+1 ; j++) { // 1 3 5 7 9로 갈려면
+			int limit = i * 2 + 1;
+			for(int j=0; j<limit ; j++) { // 1 3 5 7 9로 갈려면
 				System.out.print("*");
 			}
 					
