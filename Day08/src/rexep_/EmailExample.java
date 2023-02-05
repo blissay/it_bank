@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 public class EmailExample {
 	
+	private static final Pattern p = new Pattern.compile("^\\[0-9a-zA-Z]{1}\\w*@[a-z]+\\.[a-z]+)"."^\\[0-9a-zA-Z]{1}\\w*@[a-z]+\\.[a-z]+)")
 	
 	public static void main(String[] args) {
 		// 이메일 예제
@@ -19,16 +20,16 @@ public class EmailExample {
 		String email3 = "def@google.co.kr";
 		String email4 = "abc@NAVER.COM";
 		
-		if(email1.matches(emailPattern)) {
+		if(p.matcher(email1).matches()) {
 			System.out.println(email1);
 		}
-        if(email2.matches(emailPattern)) {
+        if(p.matcher(email2).matches()) {
 			System.out.println(email2);
 		}
-        if(email3.matches(emailPattern)) {
+        if(p.matcher(email3).matches()) {
 			System.out.println(email3);
 		}
-        if(email4.matches(emailPattern)) {
+        if(p.matcher(email4).matches()) {
 			System.out.println(email4);
 		}
 
